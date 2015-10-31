@@ -1,9 +1,11 @@
 https://the.bytecode.club                 https://bytecodeviewer.com                        http://konloch.me
 
 JVMCommand (JVMSandbox + JVMClassDump) -
+
         Overrides the standard JRE classes using Java agents to allow us to do intensive debugging on the Java application.
 
 Features:
+
         Dumps every Classfile passed into the JVM.
         Blocks System.exit.
         Blocks all Runtime.exec calls.
