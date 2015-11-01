@@ -1,11 +1,14 @@
-# JVMCommand - Overrides the standard JRE classes using Java agents to allow us to do intensive debugging on the Java application.
+# JVMCommand
 
-![](http://i.imgur.com/FRVSqNO.png)
+Overrides the standard JRE classes using Java agents to allow intensive debugging on any Java application.
+
+![](http://i.imgur.com/Lw19fII.png)
+![](http://i.imgur.com/6kvdC1i.png)
 
 ## Features:
 
 * Dumps every Classfile passed into the JVM.
-* Blocks System.exit.
+* Blocks all JVM exits.
 * Blocks all Runtime.exec calls.
 * Blocks the process builder.
 * Blocks awt.Robot.
